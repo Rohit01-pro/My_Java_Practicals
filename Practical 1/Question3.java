@@ -5,10 +5,12 @@ public class Question3 {
 
     public static void main(String[] args) {
         System.out.print("Enter a Number: ");
-        int num = input.nextInt();
+        int num = input.nextInt(); //
         if (num % 2 == 0)
             System.out.println("Number is EVEN.");
-        else
+        if (num % 2 == 1)
             System.out.println("Number is ODD.");
+        else
+            System.out.println("enter valid number");
     }
 }
